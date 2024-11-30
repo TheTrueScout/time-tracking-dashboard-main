@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+
+    <article class="container">
+
+      <section id="block-1" class="container__header-card">
+
+        <div class="header-card__inner-card">
+
+          <img src="images/image-jeremy.png" alt="Image of Jeremy">
+
+          <div>
+
+            <h1>Report for</h1>
+
+            <h2>Jeremy Robson</h2>
+            
+          </div>
+
+        </div>
+
+        <div class="sort-type">
+
+          <button data-sort="daily" class="sort-button">Daily</button>
+
+          <button data-sort="weekly" class="sort-button sort-active">Weekly</button>
+
+          <button data-sort="monthly" class="sort-button">Monthly</button>
+
+        </div>
+
+      </section>
+
+      <section id="block-2" class="container__card-type">
+
+        <div class="sort-icons">
+          <img  src="images/icon-work.svg" alt="work illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Work</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="work" class="now-hours">3hrs</p>
+
+            <p data-previous="work" class="last-hours">Last Week - 6hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="block-3" class="container__card-type">
+
+        <div class="sort-icons">
+          <img src="images/icon-play.svg" alt="play illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Play</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="play" class="now-hours">1hrs</p>
+
+            <p data-previous="play" class="last-hours">Last Week - 4hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="block-4" class="container__card-type">
+
+        <div class="sort-icons">
+          <img src="images/icon-study.svg" alt="study illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Study</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="study" class="now-hours">3hrs</p>
+
+            <p data-previous="study" class="last-hours">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="block-5" class="container__card-type">
+
+        <div class="sort-icons">
+          <img src="images/icon-exercise.svg" alt="Exercise illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Exercise</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="exercise" class="now-hours">2hrs</p>
+
+            <p data-previous="exercise" class="last-hours">Last Week - 3hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="block-6" class="container__card-type">
+
+        <div class="sort-icons">
+          <img src="images/icon-social.svg" alt="Social illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Social</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="social" data-now="work" class="now-hours">3hrs</p>
+
+            <p data-previous="social" class="last-hours">Last Week - 6hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="block-7" class="container__card-type">
+
+        <div class="sort-icons">
+          <img src="images/icon-self-care.svg" alt="Self Care illustration">
+        </div>
+
+        <div class="card-type__inner-card">
+
+          <div>
+
+            <p class="bold">Self Care</p>
+
+            <button><img src="images/icon-ellipsis.svg"></button>
+
+          </div>
+
+          <div>
+
+            <p data-now="self-care" class="now-hours">1hrs</p>
+
+            <p data-previous="self-care" class="last-hours">Last Week - 1hrs</p>
+          </div>
+        </div>
+      </section>
+
+
+
+    </article>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/TheTrueScout" target="_blank">The True Scout</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
